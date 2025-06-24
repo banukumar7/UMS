@@ -1,9 +1,12 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Data.SQLite;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
+using WindowsFormsApp1.Controller;
+using WindowsFormsApp1.Model;
 
 namespace WindowsFormsApp1.Data
 {
@@ -30,7 +33,7 @@ namespace WindowsFormsApp1.Data
                     cmd.ExecuteNonQuery();
                 }
             }
-        }
-
+        }   
+        
     }
 }
